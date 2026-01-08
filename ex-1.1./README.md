@@ -9,3 +9,8 @@ Deploy it into your Kubernetes cluster and confirm that it's running with kubect
 You will keep building this application in future exercises. This application will be called Log output.
 
 # Solution
+
+- Python source code can be found [here]().
+- Image was pushed to Docker Hub repo [markfeher/log_output]()
+- Following commands were used to create and test deployment:
+
