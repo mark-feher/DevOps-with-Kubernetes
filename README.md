@@ -7,8 +7,8 @@
 #### First Deploy
 - [1.1. Getting started](https://github.com/mark-feher/DevOps-with-Kubernetes/tree/main/ex-1.1.)
 - [1.2. The project, step 1](https://github.com/mark-feher/DevOps-with-Kubernetes/tree/main/ex-1.2.)
-- [1.3.]()
-- [1.4.]()
+- [1.3. Declarative approach](https://github.com/mark-feher/DevOps-with-Kubernetes/tree/main/ex-1.3.)
+- [1.4.](https://github.com/mark-feher/DevOps-with-Kubernetes/tree/main/ex-1.4.)
 #### Introduction to debugging
 - No exercises in this module.
 #### Introduction to networking
