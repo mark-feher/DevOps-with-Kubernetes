@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+# deployment name, identifies deployment in Kubernetes
+  name: todo-app
+spec:
+# will run in exactly one pod at all times
+# if pod crashes, Kube recreates it
+  replicas: 1
+# selector tells deployment, which pod owns it
+  selector:
+    matchLabels:
+      app: todo-app
+  template:
+    metadata:
+      labels:
+# every pod created by this deployment will have todo-app
+# crucial for service discovery
+        app: todo-app
+    spec:
+      containers:
+        - name: app
+          image: markfeher/todo-app:1.0
+          imagePullPolicy: Always
+# environment variables
+          env:
+            - name: PORT
+              value: "8080"
+# container listes on port 8080
+# important for services that target this port
+          ports:
+            - containerPort: 8080
