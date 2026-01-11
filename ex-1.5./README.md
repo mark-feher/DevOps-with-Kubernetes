@@ -9,7 +9,7 @@ Use kubectl port-forward to confirm that the project is accessible and works in 
 # Solution
 
 - Python source code can be found [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.5./todo-app/src/app.py)
-- Source code can be found [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.5./manifests/deployment.yaml)
+- Deployment manifests can be found [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.5./manifests/deployment.yaml)
 - Following commands were used to create and test deployment:
 ![todo-app-deployed.png](https://raw.githubusercontent.com/mark-feher/DevOps-with-Kubernetes/refs/heads/main/ex-1.5./todo-app-deployed.png)
 ![todo-app-deployed-port-forwarding-enabled.png](https://raw.githubusercontent.com/mark-feher/DevOps-with-Kubernetes/refs/heads/main/ex-1.5./todo-app-deployed-port-forwarding-enabled.png)
