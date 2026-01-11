@@ -11,7 +11,7 @@ You will keep building this application in future exercises. This application wi
 # Solution
 
 - Python source code can be found [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.1./log_output/src/app.py).
-- Image was pushed to Docker Hub repo [markfeher/log_output](https://hub.docker.com/r/markfeher/log_output)
+- Image was pushed to Docker Hub repo [markfeher/log_output](https://hub.docker.com/r/markfeher/log_output).
 - Following commands were used to create and test deployment:
 ![log_output-dockerized.png](https://raw.githubusercontent.com/mark-feher/DevOps-with-Kubernetes/refs/heads/main/ex-1.1./log_output-dockerized.png)
 ![log_output-deployed.png](https://raw.githubusercontent.com/mark-feher/DevOps-with-Kubernetes/refs/heads/main/ex-1.1./log_output-deployed.png)
