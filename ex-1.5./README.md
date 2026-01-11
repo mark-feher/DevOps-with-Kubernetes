@@ -14,3 +14,4 @@ Use kubectl port-forward to confirm that the project is accessible and works in 
 ![todo-app-deployed.png](https://raw.githubusercontent.com/mark-feher/DevOps-with-Kubernetes/refs/heads/main/ex-1.5./todo-app-deployed.png)
 ![todo-app-deployed-port-forwarding-enabled.png](https://raw.githubusercontent.com/mark-feher/DevOps-with-Kubernetes/refs/heads/main/ex-1.5./todo-app-deployed-port-forwarding-enabled.png)
 ![todo-app-output.png](https://raw.githubusercontent.com/mark-feher/DevOps-with-Kubernetes/refs/heads/main/ex-1.5./todo-app-output.png)
+![todo-app-output-browser.png](https://raw.githubusercontent.com/mark-feher/DevOps-with-Kubernetes/refs/heads/main/ex-1.5./todo-app-output-browser.png)
