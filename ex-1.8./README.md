@@ -4,9 +4,9 @@ Switch to using Ingress instead of NodePort to access the project. You can delet
 
 # Solution
 
-- Deployment manifests can be found [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.8./manifests/deployment.yaml)
-- Service manifests can be found [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.8./manifests/service.yaml)
-- Ingress manifests can be found [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.8./manifests/ingress.yaml)
+- Deployment manifests can be found [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.8./manifests/deployment.yaml).
+- Service manifests can be found [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.8./manifests/service.yaml).
+- Ingress manifests can be found [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.8./manifests/ingress.yaml).
 - Following commands were used to create and test deployment:
 ![todo-app-ingress.png](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.8./todo-app-ingress.png)
 ![todo-app-ingress-output.png](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.8./todo-app-ingress-output.png)
