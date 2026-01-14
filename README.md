@@ -45,4 +45,5 @@
 - []()
 - []()
 
-> [!NOTE] Main focus of this project was't to learn to program, but to grasp the Kubernetes basics. I use LLMs to solve the exercises.
+> [!NOTE] 
+> Main focus of this project was't to learn to program, but to grasp the Kubernetes basics. I use LLMs to solve the exercises.
