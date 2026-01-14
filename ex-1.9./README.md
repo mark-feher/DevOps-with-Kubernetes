@@ -13,3 +13,11 @@ The ping-pong application will need to listen to requests on '/pingpong', so you
 - Service manifest [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.9./pingpong/manifests/service.yaml).
 - Ingress manifest [here](https://github.com/mark-feher/DevOps-with-Kubernetes/blob/main/ex-1.9./pingpong/manifests/ingress.yaml).
 - Following commands were used to create and test deployment:
+```
+### Create a cluster
+> $ k3d cluster create -p 8080:80@loadbalancer
+### Apply the manifests
+> $ kubectl apply -f manifests/
+### Repeat the requests for the endpoint to get increasing response counter output
+> $ curl http://localhost:8080/pingpong
+```
